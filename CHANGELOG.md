@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.3.20] - 2026-10-17
+
+### Changed
+
+- Compatibility: `engines.dsh` -> `>=0.2.1-0 <0.3.0`; devDependencies to `0.2.1-rc.2`; add `@deepseek-ai/dsh-working-directory`.
+
+### Verified
+
+- The Windows mount path already declares `subprocess` in `inject` (`src/index.ts`), the click helper already uses `GetClientRect` + `ScreenToClient` + `ClientToScreen`, and the element/key helper paths are covered by the native fake tests. No new backend or platform work.
+
 All notable changes to this project are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
