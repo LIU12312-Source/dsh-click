@@ -42,7 +42,7 @@ Cross-platform native desktop control for DeepSeek Harness — Windows first.
 
 Look at the screen, then act — every click gated, every action audited.
 
-![Terminal demo of dsh-click: dsh-click — 8 native desktop tools, freshness-checked and approval-gated](https://raw.githubusercontent.com/PerryLink/dsh-click/main/docs/assets/dsh-click-demo.png)
+![Terminal demo of dsh-click: dsh-click — 8 native desktop tools, freshness-checked and approval-gated](https://raw.githubusercontent.com/PerryLink/dsh-click/main/docs/assets/dsh-click-hero.png)
 
 ![Animated terminal demo of dsh-click](https://raw.githubusercontent.com/PerryLink/dsh-click/main/docs/assets/dsh-click-demo.gif)
 

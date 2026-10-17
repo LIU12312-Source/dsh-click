@@ -41,7 +41,7 @@ DeepSeek Harness 的跨平台原生桌面控制 —— Windows 优先。
 
 先看清屏幕，再动手 —— 每次点击都过审批，每次操作都留审计。
 
-![dsh-click 终端演示：dsh-click — 8 native desktop tools, freshness-checked and approval-gated](https://raw.githubusercontent.com/PerryLink/dsh-click/main/docs/assets/dsh-click-demo.png)
+![dsh-click 终端演示：dsh-click — 8 native desktop tools, freshness-checked and approval-gated](https://raw.githubusercontent.com/PerryLink/dsh-click/main/docs/assets/dsh-click-hero.png)
 
 ![Animated terminal demo of dsh-click](https://raw.githubusercontent.com/PerryLink/dsh-click/main/docs/assets/dsh-click-demo.gif)
 

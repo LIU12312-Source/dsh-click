@@ -41,7 +41,7 @@ Controle nativo de desktop multiplataforma para o DeepSeek Harness — Windows p
 
 Olhe para a tela e então aja — cada clique autorizado, cada ação auditada.
 
-![Demonstração de terminal do dsh-click: dsh-click — 8 native desktop tools, freshness-checked and approval-gated](https://raw.githubusercontent.com/PerryLink/dsh-click/main/docs/assets/dsh-click-demo.png)
+![Demonstração de terminal do dsh-click: dsh-click — 8 native desktop tools, freshness-checked and approval-gated](https://raw.githubusercontent.com/PerryLink/dsh-click/main/docs/assets/dsh-click-hero.png)
 
 ![Animated terminal demo of dsh-click](https://raw.githubusercontent.com/PerryLink/dsh-click/main/docs/assets/dsh-click-demo.gif)
 
