@@ -21,6 +21,11 @@
 
 [English](README.md) · [简体中文](README-zh.md) · [Español](README-es.md) · [Português](README-pt.md) · [हिन्दी](README-hi.md)
 
+```sh
+dsh plugin --profile <name> add dsh-click
+```
+
+
 </div>
 
 ---
@@ -29,6 +34,15 @@
 **📖 Base de conhecimento do ecossistema** — dados medidos, não marketing: [guia de desenvolvimento · dados de seleção · critérios de manutenção](https://perrylink.github.io/dsh-plugin-guide/).
 
 <!-- star-cta -->
+## Instalação e desinstalação
+
+- **Canal git** (último `main`): `dsh plugin --profile web add github:PerryLink/dsh-click` — o script `prepare` compila apenas com dependências de produção.
+- **Canal npm** (versões publicadas): `dsh plugin --profile web add dsh-click`.
+- **Canal tarball**: `pnpm pack` neste repositório e então `dsh plugin --profile web add ./dsh-click-<version>.tgz`.
+- **Desinstalar**: `dsh plugin --profile web remove dsh-click` (ou remova a linha do patch do perfil).
+
+> Se o pnpm reportar `ERR_PNPM_IGNORED_BUILDS` para este pacote (a validação inofensiva do binário de plataforma do esbuild), adicione `allowBuilds: { esbuild: true }` ao seu `pnpm-workspace.yaml` — o CLI `dsh` imprime o trecho exato.
+
 ## ⭐ 如果它帮到了你
 
 Este plugin faz parte da [família de plugins DSH](https://github.com/PerryLink) (mais de 40, todos Apache-2.0). Se for útil, **deixe uma estrela**: não desbloqueia nada, mas ajuda a próxima pessoa a encontrá-lo.
@@ -103,15 +117,6 @@ Depois peça ao agente para olhar uma janela e agir — o aviso de aprovação a
 ```
 > Abra o Bloco de Notas, digite "olá" e leia de volta o que está na tela.
 ```
-
-## Instalação e desinstalação
-
-- **Canal git** (último `main`): `dsh plugin --profile web add github:PerryLink/dsh-click` — o script `prepare` compila apenas com dependências de produção.
-- **Canal npm** (versões publicadas): `dsh plugin --profile web add dsh-click`.
-- **Canal tarball**: `pnpm pack` neste repositório e então `dsh plugin --profile web add ./dsh-click-<version>.tgz`.
-- **Desinstalar**: `dsh plugin --profile web remove dsh-click` (ou remova a linha do patch do perfil).
-
-> Se o pnpm reportar `ERR_PNPM_IGNORED_BUILDS` para este pacote (a validação inofensiva do binário de plataforma do esbuild), adicione `allowBuilds: { esbuild: true }` ao seu `pnpm-workspace.yaml` — o CLI `dsh` imprime o trecho exato.
 
 ## Configuração
 
